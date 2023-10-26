@@ -2216,6 +2216,8 @@ MonoBehaviour:
   jumpPower: 50
   itemCount: 4
   manager: {fileID: 1719739351}
+  doorToogle: {fileID: 0}
+  door: {fileID: 0}
 --- !u!135 &1642436318
 SphereCollider:
   m_ObjectHideFlags: 0
