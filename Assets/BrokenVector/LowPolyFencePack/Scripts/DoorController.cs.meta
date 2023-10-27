@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 3ee17e4f0e4479d49a92b58133c5e3d1
+timeCreated: 1462446467
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 61661
+  packageName: Low Poly Fence Pack
+  packageVersion: 1.1
+  assetPath: Assets/BrokenVector/LowPolyFencePack/Scripts/DoorController.cs
+  uploadId: 253910

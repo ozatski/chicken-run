@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: ef133e13baf0e944c8a6fc68ef7517f5
+timeCreated: 1462447735
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 61661
+  packageName: Low Poly Fence Pack
+  packageVersion: 1.1
+  assetPath: Assets/BrokenVector/LowPolyFencePack/Scripts/DoorToggle.cs
+  uploadId: 253910
