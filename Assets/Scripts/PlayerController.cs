@@ -10,7 +10,8 @@ public class Player : MonoBehaviour
     public float jumpPower;
     public int itemCount;
     public Gamemanger manager;
-
+    public DoorToggle doorToogle;
+    public GameObject door;
     bool isJump;
     AudioSource audio;
     int finalLevel = 3;
@@ -21,6 +22,12 @@ public class Player : MonoBehaviour
     {
         Debug.Log("The Game is ready!");
         rb = GetComponent<Rigidbody>();
+        door = GameObject.Find("ExitDoor");
+        if(door)
+        {
+            doorToogle = door.GetComponent<DoorToggle>();
+        }
+ 
         isJump = false;
         itemCount = 0;
     }
@@ -47,14 +54,17 @@ public class Player : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-     
-
         if (other.tag == "Item")
         { 
             itemCount++;
             audio.Play(); //playback sound 
             other.gameObject.SetActive(false); //inactivate item
             manager.GetItem(itemCount);
+
+            if(manager.totalItemCount == itemCount)
+            {
+                doorToogle.getDoorController().ToggleDoor();
+            }
         }
         else if (other.tag == "Final")
         {
