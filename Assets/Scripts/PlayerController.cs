@@ -61,7 +61,7 @@ public class Player : MonoBehaviour
             other.gameObject.SetActive(false); //inactivate item
             manager.GetItem(itemCount);
 
-            if(manager.totalItemCount == itemCount)
+            if(door && manager.totalItemCount == itemCount)
             {
                 doorToogle.getDoorController().ToggleDoor();
             }
