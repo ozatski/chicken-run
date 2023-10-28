@@ -6,5 +6,5 @@ This is a fork from my team's project at Conestoga VARLab code jam. This is a ch
 
 Karandeep S\
 Eunheui J\
-Thomaz O
+Thomaz O\
 Paulo M
