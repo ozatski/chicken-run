@@ -4,7 +4,7 @@ This is a fork from my team's project at Conestoga VARLab code jam. This is a ch
 
 # Team KEPT
 
-Karandeep S
-Eunheui J
+Karandeep S\
+Eunheui J\
 Thomaz O
 Paulo M
